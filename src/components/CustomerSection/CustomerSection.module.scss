@@ -60,3 +60,47 @@
   cursor: pointer;
   margin-top: 56px;
 }
+
+/********  2ND Section ********/
+
+.customer_connect_section_container {
+  padding: 0px 150px;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 100px;
+}
+
+.customer_connect_section_heading {
+  font-family: 'Manrope', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 56px;
+  /* or 156% */
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+.customer_connect_section_info_items {
+  list-style: none;
+  padding-left: 0;
+}
+.customer_connect_section_info_item {
+  background: #ffffff;
+  box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.08);
+  border-radius: 4px;
+  padding: 16px 24px;
+  margin-bottom: 24px;
+}
+
+.customer_connect_section_info_item_active {
+  background: #0a2640;
+  color: #fff;
+}
+
+.customer_connect_section_info_item_checked {
+  padding-right: 10px;
+}
