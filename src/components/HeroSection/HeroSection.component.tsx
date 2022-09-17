@@ -4,6 +4,7 @@ import Header from '../Header/Header.component';
 import HeroGfx from '../../public/herographics.svg';
 
 import Partners from '../Partners/Partners.component';
+import ServicesSection from '../ServicesSection/ServicesSection.module';
 
 const HeroSection = () => {
   return (

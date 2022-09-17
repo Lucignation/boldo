@@ -1,9 +1,15 @@
 import HeroSection from '../../components/HeroSection/HeroSection.component';
+import ServicesSection from '../../components/ServicesSection/ServicesSection.module';
 
 const Home = () => {
   return (
     <div>
-      <HeroSection />
+      <section>
+        <HeroSection />
+      </section>
+      <section>
+        <ServicesSection />
+      </section>
     </div>
   );
 };
